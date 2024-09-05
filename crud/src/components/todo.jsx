@@ -6,7 +6,6 @@ const Todo = ({ todo, removeTodo, completeTodo }) => {
       <div className="content">
       <button className={todo.isCompleted ? "urgencia complete-urgency" : "urgencia"}></button>
       
-      
         <p>{todo.text}</p>
         <p>{todo.textarea}</p>
         <p>{todo.data}</p>
