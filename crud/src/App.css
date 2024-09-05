@@ -43,17 +43,44 @@ button:hover{
   opacity: 1;
 }
 
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px rgba(4, 24, 73, 1);
+}
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; 
+  width: 100%;
+  overflow: hidden; 
+  width: auto;
+}
+
 .complete{
   background-color: #5cb85c;
+  margin: 10px 15px 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .edit{
-  background-color:  rgba(4, 24, 73, 1);
+  background-color:  rgb(4, 24, 73,);
+  margin: 10px 15px 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 
 .remove{
   background-color: rgba(235, 18, 18, 1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px 15px 10px 0;
+  
 }
 
 .todo-form{
@@ -68,3 +95,26 @@ input, select {
   width: 100%;
   
 }
+.content {
+  flex-grow: 1;
+  white-space: normal; /* Permite quebra de linha automática */
+  word-wrap: break-word; /* Garante que palavras longas quebrem */
+  overflow-wrap: break-word; /* Outra forma de garantir a quebra de palavras */
+} 
+
+
+
+.urgencia {
+  background-color: red; 
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+}
+
+.complete-urgency {
+  background-color: green; 
+}
+
+
+
